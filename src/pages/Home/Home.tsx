@@ -157,7 +157,7 @@ export default function Home() {
                   }}
                 >
                   {item.title}
-                  <span style={{ color: '#cccccc' }}>R$ {item.price}</span>
+                  <span style={{ color: '#cccccc', marginTop: '7px' }}>R$ {item.price}</span>
                 </p>
               </div>
             )
