@@ -12,7 +12,7 @@ export const Container = styled.div`
   overflow-y: hidden;
 
   @media screen and (max-width: 1050px) {
-    height: 300rem;
+    height: 170rem;
   }
 `
 

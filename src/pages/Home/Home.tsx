@@ -168,16 +168,16 @@ export default function Home() {
         <SideBarLeft>
           <SidebarList>
             <SidebarListLi>
-              <Text>Filmes</Text>
+              <Text>Mafalda</Text>
             </SidebarListLi>
             <SidebarListLi>
-              <Text>Lord</Text>
+              <Text>Shoopy</Text>
             </SidebarListLi>
             <SidebarListLi>
-              <Text>Titanic</Text>
+              <Text>Chiquita</Text>
             </SidebarListLi>
             <SidebarListLi>
-              <Text>The Row</Text>
+              <Text>Hulke</Text>
             </SidebarListLi>
           </SidebarList>
         </SideBarLeft>

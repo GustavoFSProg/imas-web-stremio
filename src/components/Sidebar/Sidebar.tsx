@@ -7,16 +7,16 @@ export default function SideBarLeftmenu() {
     <SideBar>
       <SidebarList>
         <SidebarListLi>
-          <Text>Filmes</Text>
+          <Text>Mafalda</Text>
         </SidebarListLi>
         <SidebarListLi>
-          <Text>Lord</Text>
+          <Text>Snoopy</Text>
         </SidebarListLi>
         <SidebarListLi>
-          <Text>Titanic</Text>
+          <Text>Chaves</Text>
         </SidebarListLi>
         <SidebarListLi>
-          <Text>The Row</Text>
+          <Text>Chiquita</Text>
         </SidebarListLi>
       </SidebarList>
     </SideBar>

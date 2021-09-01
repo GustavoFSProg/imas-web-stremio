@@ -26,7 +26,7 @@ function Navbar() {
                 }}
               >
                 <FaFilm size="20" style={{ marginRight: '8px', color: 'white' }} />
-                <HeaderText>Painel</HeaderText>
+                <HeaderText>Categorias</HeaderText>
               </div>
             </Link>
             <Link to="/" style={{ textDecoration: 0 }}>
@@ -54,7 +54,7 @@ function Navbar() {
                 }}
               >
                 <FaFilm size="20" style={{ marginRight: '8px', color: 'white' }} />
-                <HeaderText>Séries</HeaderText>
+                <HeaderText>Artes</HeaderText>
               </div>
             </Link>
           </ListHeaderContainer>
