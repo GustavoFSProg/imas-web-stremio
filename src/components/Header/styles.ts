@@ -8,6 +8,19 @@ export const Header = styled.div`
   border: 1px solid #f77a22;
 `
 
+export const ListHeaderContainer = styled.div`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 24px;
+  /* padding-bottom: 4px; */
+  padding-top: 26px;
+  margin-top: -22px;
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
+`
+
 export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
@@ -15,6 +28,10 @@ export const HeaderContainer = styled.div`
   margin-left: 24px;
   /* padding-bottom: 4px; */
   padding-top: 26px;
+
+  @media screen and (max-width: 720px) {
+    margin-top: 7px;
+  }
 `
 
 export const HeaderText = styled.p`
