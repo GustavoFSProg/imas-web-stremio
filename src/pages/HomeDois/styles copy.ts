@@ -7,8 +7,8 @@ export const Container = styled.div`
 
   width: 100%;
   height: 57rem;
-  /* background: #f66c09; */
-  background: darkorange;
+  background: blue;
+  /* background: #1f3d7a; */
 
   @media screen and (max-width: 1050px) {
     height: 300rem;
@@ -21,7 +21,6 @@ export const Text = styled.div`
   padding-bottom: 2px;
   padding-left: 2px;
   padding-right: 2px;
-  color: white;
 `
 
 export const SidebarList = styled.ul`
@@ -94,11 +93,11 @@ export const HeaderText = styled.p`
 `
 export const SideBar = styled.div`
   display: flex;
-  background: #f8893a;
+  background: #202946;
   flex-direction: column;
   width: 153px;
   max-width: 175px;
-  border-right: 2px solid #dd6108;
+  border-right: 2px solid #485f9d;
 
   /* min-width: 175px; */
   padding: 13px;
@@ -107,7 +106,7 @@ export const SideBar = styled.div`
 `
 export const SideBarLeft = styled.div`
   display: flex;
-  background: #f8893a;
+  background: #202946;
   flex-direction: column;
   width: 153px;
   max-width: 175px;
@@ -115,7 +114,7 @@ export const SideBarLeft = styled.div`
   padding: 13px;
   height: 97%;
   color: white;
-  border-left: 2px solid #dd6108;
+  border-left: 2px solid #485f9d;
 
   @media screen and (max-width: 720px) {
     display: none;

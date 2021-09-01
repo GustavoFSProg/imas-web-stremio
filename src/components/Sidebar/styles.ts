@@ -7,8 +7,7 @@ export const Container = styled.div`
 
   width: 100%;
   height: 57rem;
-  /* background: #f66c09; */
-  background: darkorange;
+  background: #f66c09;
 
   @media screen and (max-width: 1050px) {
     height: 300rem;

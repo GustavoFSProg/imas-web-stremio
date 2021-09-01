@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Card from '../../components/Card'
 import Navbar from '../../components/Header'
+import SideBarLeftmenu from '../../components/Sidebar/Home'
 import api from '../../services/api'
 import {
   Container,
@@ -112,13 +113,6 @@ const movies = [
   },
 ]
 
-// type Iproducts = {
-//   title: string
-//   price: string
-//   description: string
-//   image: string
-// }
-
 export default function HomeDois() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [productsList, setProductsList] = useState([])
@@ -138,22 +132,7 @@ export default function HomeDois() {
     <Container>
       <Navbar />
       <Content>
-        <SideBar>
-          <SidebarList>
-            <SidebarListLi>
-              <Text>Filmes</Text>
-            </SidebarListLi>
-            <SidebarListLi>
-              <Text>Lord</Text>
-            </SidebarListLi>
-            <SidebarListLi>
-              <Text>Titanic</Text>
-            </SidebarListLi>
-            <SidebarListLi>
-              <Text>The Row</Text>
-            </SidebarListLi>
-          </SidebarList>
-        </SideBar>
+        <SideBarLeftmenu />
         <ListMovies>
           {movies.map((movie) => {
             return <Card image={movie.image} />

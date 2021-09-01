@@ -7,11 +7,11 @@ import {
   SidebarListLi,
   SidebarList,
   Text,
-  SideBar,
   Content,
   ListMovies,
   SideBarLeft,
 } from './styles'
+import SideBarLeftmenu from '../../components/Sidebar/Home'
 
 const movies = [
   {
@@ -124,29 +124,13 @@ export default function Home() {
 
   useEffect(() => {
     getAllProducts()
-    // handleCart(productId)
   }, [])
 
   return (
     <Container>
       <Navbar />
       <Content>
-        <SideBar>
-          <SidebarList>
-            <SidebarListLi>
-              <Text>Filmes</Text>
-            </SidebarListLi>
-            <SidebarListLi>
-              <Text>Lord</Text>
-            </SidebarListLi>
-            <SidebarListLi>
-              <Text>Titanic</Text>
-            </SidebarListLi>
-            <SidebarListLi>
-              <Text>The Row</Text>
-            </SidebarListLi>
-          </SidebarList>
-        </SideBar>
+        <SideBarLeftmenu />
         <ListMovies>
           {movies.map((movie) => {
             return <Card image={movie.image} />
