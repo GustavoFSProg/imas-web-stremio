@@ -18,10 +18,14 @@ export default function SimpleMenu() {
 
   const handleOpenItem = () => {
     history.push('/dois')
+
+    setAnchorEl(null)
   }
 
   const handleOpenItemTwo = () => {
     history.push('/')
+
+    setAnchorEl(null)
   }
 
   return (

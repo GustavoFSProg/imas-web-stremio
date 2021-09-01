@@ -41,9 +41,9 @@ export const SidebarListLi = styled.li`
   cursor: pointer;
 
   &:hover {
-    border: 2px solid gray;
+    border: 2px solid #804d00;
     border-radius: 4px;
-    background: purple;
+    background: #b36b00;
   }
 `
 
