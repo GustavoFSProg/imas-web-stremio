@@ -6,8 +6,10 @@ export const Container = styled.div`
   justify-content: center;
 
   width: 100%;
-  height: 57rem;
+  height: 70rem;
   background: #f66c09;
+  overflow-x: hidden;
+  overflow-y: hidden;
 
   @media screen and (max-width: 1050px) {
     height: 300rem;
