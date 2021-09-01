@@ -1,12 +1,20 @@
 import { FaFilm } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { Header, HeaderContainer, HeaderText } from './styles'
+import logo from '../../assets/logo.svg'
 
 function Navbar() {
   return (
     <>
       <Header>
         <HeaderContainer>
+          <img
+            src={logo}
+            alt="Logo"
+            width="106"
+            style={{ marginTop: '-25px', marginRight: '32px' }}
+          />
+
           <Link to="/dois" style={{ textDecoration: 0 }}>
             <div
               style={{
