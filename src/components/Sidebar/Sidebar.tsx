@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { SidebarListLi, SidebarList, Text, SideBar } from './styles'
 
 export default function SideBarLeftmenu() {
@@ -7,16 +8,24 @@ export default function SideBarLeftmenu() {
     <SideBar>
       <SidebarList>
         <SidebarListLi>
-          <Text>Mafalda</Text>
+          <Link to="/dois" style={{ textDecoration: 'none' }}>
+            <Text>Mafalda</Text>
+          </Link>
         </SidebarListLi>
         <SidebarListLi>
-          <Text>Snoopy</Text>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <Text>Snoopy</Text>
+          </Link>
         </SidebarListLi>
         <SidebarListLi>
-          <Text>Chaves</Text>
+          <Link to="/dois" style={{ textDecoration: 'none' }}>
+            <Text>Chaves</Text>
+          </Link>
         </SidebarListLi>
         <SidebarListLi>
-          <Text>Chiquita</Text>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <Text>Chiquita</Text>
+          </Link>
         </SidebarListLi>
       </SidebarList>
     </SideBar>
