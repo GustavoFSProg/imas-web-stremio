@@ -23,5 +23,5 @@ export const MenuContainer = styled.div`
   display: ruby-base;
   justify-content: right;
   margin-top: -19px;
-  margin-left: 66px;
+  margin-left: 70px;
 `

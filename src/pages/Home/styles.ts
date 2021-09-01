@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: center;
 
   width: 100%;
-  height: 70rem;
+  height: 100vh;
   background: #f66c09;
   overflow-x: hidden;
   overflow-y: hidden;
