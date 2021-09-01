@@ -7,7 +7,7 @@ function Navbar() {
     <>
       <Header>
         <HeaderContainer>
-          <Link to="/dois">
+          <Link to="/dois" style={{ textDecoration: 0 }}>
             <div
               style={{
                 display: 'flex',
@@ -20,7 +20,7 @@ function Navbar() {
               <HeaderText>Painel</HeaderText>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/" style={{ textDecoration: 0 }}>
             <div
               style={{
                 display: 'flex',
@@ -34,7 +34,7 @@ function Navbar() {
               <HeaderText>Home</HeaderText>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/" style={{ textDecoration: 0 }}>
             <div
               style={{
                 display: 'flex',
