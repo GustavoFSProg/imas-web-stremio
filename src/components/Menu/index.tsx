@@ -40,8 +40,8 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleOpenItem}>Painel</MenuItem>
         <MenuItem onClick={handleOpenItemTwo}>Home</MenuItem>
+        <MenuItem onClick={handleOpenItem}>Categorias</MenuItem>
         <MenuItem onClick={handleClose}>Produtos</MenuItem>
       </Menu>
     </MenuContainer>
