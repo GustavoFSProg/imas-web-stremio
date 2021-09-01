@@ -1,4 +1,4 @@
-import { Container, SidebarListLi, SidebarList, Text, SideBar, Content } from './styles'
+import { SidebarListLi, SidebarList, Text, SideBar } from './styles'
 
 export default function SideBarLeftmenu() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

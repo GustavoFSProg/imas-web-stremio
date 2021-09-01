@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react'
 import Card from '../../components/Card'
 import Navbar from '../../components/Header'
-import SideBarLeftmenu from '../../components/Sidebar/Home'
+import SideBarLeftmenu from '../../components/Sidebar/Sidebar'
 import api from '../../services/api'
 import {
   Container,
   SidebarListLi,
   SidebarList,
   Text,
-  SideBar,
   Content,
   ListMovies,
   SideBarLeft,

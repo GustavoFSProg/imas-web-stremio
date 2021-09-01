@@ -11,7 +11,7 @@ import {
   ListMovies,
   SideBarLeft,
 } from './styles'
-import SideBarLeftmenu from '../../components/Sidebar/Home'
+import SideBarLeftmenu from '../../components/Sidebar/Sidebar'
 
 const movies = [
   {
