@@ -148,7 +148,7 @@ export default function Home() {
                 <Card image={`https://imas-api.herokuapp.com/files/${item.image}`} />
                 <p
                   style={{
-                    fontSize: '15px',
+                    fontSize: '16px',
                     color: '#d9d9d9',
                     fontWeight: 'bold',
                     display: 'flex',
@@ -157,7 +157,7 @@ export default function Home() {
                   }}
                 >
                   {item.title}
-                  <span>R$ {item.price}</span>
+                  <span style={{ color: '#cccccc' }}>R$ {item.price}</span>
                 </p>
               </div>
             )
