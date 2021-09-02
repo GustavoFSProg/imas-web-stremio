@@ -16,6 +16,7 @@ export const Botao = styled.button`
   padding-right: 9px;
   padding-left: 9px;
   cursor: pointer;
+  margin-left: 38px;
 
   @media screen and (min-width: 720px) {
     display: none;
