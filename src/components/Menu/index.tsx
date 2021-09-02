@@ -32,7 +32,7 @@ export default function SimpleMenu() {
   return (
     <MenuContainer>
       <Botao aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        <GiHamburgerMenu size="31" />
+        <GiHamburgerMenu size="32" />
       </Botao>
       <Menu
         id="simple-menu"

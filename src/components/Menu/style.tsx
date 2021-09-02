@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const Botao = styled.button`
   margin-top: '-23px';
   border: 0;
-  background: #ff9900;
+  /* background: #ff9900; */
+  background: none;
   color: white;
   font-weight: bold;
   font-size: 16px;
@@ -11,7 +12,7 @@ export const Botao = styled.button`
   /* border: 1px solid white;
   border-radius: 5px; */
   padding-top: 6px;
-  padding-bottom: 6px;
+  /* padding-bottom: 6px; */
   padding-right: 9px;
   padding-left: 9px;
   cursor: pointer;
