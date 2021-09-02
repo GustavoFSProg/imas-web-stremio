@@ -28,7 +28,6 @@ export const HeaderContainer = styled.div`
   margin-left: 24px;
   /* padding-bottom: 4px; */
   padding-top: 26px;
-
   @media screen and (max-width: 720px) {
     margin-top: 7px;
   }
@@ -39,4 +38,5 @@ export const HeaderText = styled.p`
   text-align: center;
   font-size: 16px;
   margin-right: 35px;
+  cursor: pointer;
 `

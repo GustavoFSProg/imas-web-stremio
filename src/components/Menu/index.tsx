@@ -3,6 +3,7 @@ import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import { Botao, MenuContainer } from './style'
 import { useHistory } from 'react-router-dom'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null)
@@ -31,7 +32,7 @@ export default function SimpleMenu() {
   return (
     <MenuContainer>
       <Botao aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        Menu
+        <GiHamburgerMenu size="31" />
       </Botao>
       <Menu
         id="simple-menu"
